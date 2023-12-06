@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter',sans-serif;
+}
+header{
+    background-color: #c0cfac;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
+.lista-menu li>a {
+    color: #6b4324;
+    font-size: 18px;
+    text-decoration:none ;
+    align-items: center;
+    display: inline-block ;
+}
+li {
+    list-style: none; /*retira as bolinhas*/
+    display: inline-block;
+    margin: 40px;
+    position:relative;
+    text-align: center;
+}
+#primeira-parte{
+    text-align: center;
+    color: #6b4324;
+    font-size: 18px;
+    height: auto;
+}
+.container{
+display: flexbox;
+flex-wrap: wrap;
+width: auto;
+height: auto;
+justify-content: space-between; 
+background-color: #c0cfac;    
+}
+.coluna{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: auto;
+height: auto;
+margin: 30px;
+border: solid;
+}
+.coluna2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+height: auto;
+    margin: 30px;
+    border: solid;
+}
+.coluna3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    border: solid;
+}
+.fotosprincipais{
+    width: 500px;
+    height: 450px;
+   
+}
+p{
+    align-items: center;
+    text-align: center;
+    color: #6b4324;
+    font-size: 18px;
+    height: auto;
+
+}
+footer{
+    height: auto;
+    
+    text-align: center;
+    background-color: white;
+    color: #c0cfac;
+    font-size: 20px;
+    font-family: helvetica;
+    
+}
+
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0%;
+    align-items: stretcsel;
+    padding: 0%;
+    height: auto;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: display;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape-direitos{
+    width: 100%;
+    height:auto;
+    background-color: #c0cfac;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
